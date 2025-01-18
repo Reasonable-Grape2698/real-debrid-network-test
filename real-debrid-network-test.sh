@@ -7,22 +7,23 @@ YELLOW='\033[1;33m'
 NC='\033[0m' # No Color
 
 ips=(
-"45-6.download.real-debrid.com"
-"45-4.download.real-debrid.com"
-"rbx-6.download.real-debrid.com"
-"rbx-4.download.real-debrid.com"
-"syd1-6.download.real-debrid.com"
-"syd1-4.download.real-debrid.com"
-"hkg1-6.download.real-debrid.com"
-"hkg1-4.download.real-debrid.com"
-"sgp1-6.download.real-debrid.com"
-"sgp1-4.download.real-debrid.com"
-"sgpo1-6.download.real-debrid.com"
-"sgpo1-4.download.real-debrid.com"
+"45.download.real-debrid.com"
+"45.download.real-debrid.com"
+"rbx.download.real-debrid.com"
+"syd1.download.real-debrid.com"
+"hkg1.download.real-debrid.com"
+"sgp1.download.real-debrid.com"
+"sgpo1.download.real-debrid.com"
 "mum1-6.download.real-debrid.com"
 "mum1-4.download.real-debrid.com"
-"jkt1-6.download.real-debrid.com"
 "jkt1-4.download.real-debrid.com"
+"den1.download.real-debrid.com"
+"sea1.download.real-debrid.com"
+"nyk1.download.real-debrid.com"
+"chi1.download.real-debrid.com"
+"lax1.download.real-debrid.com"
+"mia1.download.real-debrid.com"
+"dal1.download.real-debrid.com"
 )
 
 tempfile=$(mktemp)
