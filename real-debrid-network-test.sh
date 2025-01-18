@@ -6,24 +6,7 @@ GREEN='\033[0;32m'
 YELLOW='\033[1;33m'
 NC='\033[0m' # No Color
 
-ips=(
-"45.download.real-debrid.com"
-"45.download.real-debrid.com"
-"rbx.download.real-debrid.com"
-"syd1.download.real-debrid.com"
-"hkg1.download.real-debrid.com"
-"sgp1.download.real-debrid.com"
-"sgpo1.download.real-debrid.com"
-"mum1.download.real-debrid.com"
-"jkt1.download.real-debrid.com"
-"den1.download.real-debrid.com"
-"sea1.download.real-debrid.com"
-"nyk1.download.real-debrid.com"
-"chi1.download.real-debrid.com"
-"lax1.download.real-debrid.com"
-"mia1.download.real-debrid.com"
-"dal1.download.real-debrid.com"
-)
+ips=($(curl -s https://real-debrid.com/speedtest | grep /speedtest/test.rar | sed 's/"https:\/\///g' | sed 's/\/speedtest\/test.rar",//g'))
 
 tempfile=$(mktemp)
 
